@@ -18,7 +18,7 @@ public class Validate extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
-     * @see HttpServlet#HttpServlet()
+     * k @see HttpServlet#HttpServlet()
      */
     public Validate() {
         super();
