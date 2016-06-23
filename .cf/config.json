@@ -1,0 +1,40 @@
+{
+  "ConfigVersion": 3,
+  "Target": "https://api.ng.bluemix.net",
+  "ApiVersion": "2.27.0",
+  "AuthorizationEndpoint": "https://login.ng.bluemix.net/UAALoginServerWAR",
+  "LoggregatorEndPoint": "wss://loggregator.ng.bluemix.net:443",
+  "DopplerEndPoint": "wss://doppler.ng.bluemix.net:443",
+  "UaaEndpoint": "http://uaa.ng.bluemix.net",
+  "AccessToken": "bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJmYWRiNjgwYy1lYTUzLTRiZmYtYTQ2OS00NDQyYWMxMjBmNTYiLCJzdWIiOiIyYzViYzI2My1lNzFhLTQ5MjktOTg1ZC0yNGQyY2MwNDEwNGIiLCJzY29wZSI6WyJwYXNzd29yZC53cml0ZSIsIm9wZW5pZCIsImNsb3VkX2NvbnRyb2xsZXIud3JpdGUiLCJjbG91ZF9jb250cm9sbGVyLnJlYWQiXSwiY2xpZW50X2lkIjoiY2YiLCJjaWQiOiJjZiIsImF6cCI6ImNmIiwiZ3JhbnRfdHlwZSI6InBhc3N3b3JkIiwidXNlcl9pZCI6IjJjNWJjMjYzLWU3MWEtNDkyOS05ODVkLTI0ZDJjYzA0MTA0YiIsInVzZXJfbmFtZSI6InNwaXBwYWxsYTJAY3NjLmNvbSIsImVtYWlsIjoic3BpcHBhbGxhMkBjc2MuY29tIiwiaWF0IjoxNDQxNjIwODE4LCJleHAiOjE0NDE2NjQwMTgsImlzcyI6Imh0dHBzOi8vdWFhLm5nLmJsdWVtaXgubmV0L29hdXRoL3Rva2VuIiwiemlkIjoidWFhIiwiYXVkIjpbIm9wZW5pZCIsImNsb3VkX2NvbnRyb2xsZXIiLCJwYXNzd29yZCIsImNmIl19.CHKTcMW8nMk5KZNpM2PFZYHcUV6W5WvjjCv9-WE8nbM",
+  "RefreshToken": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhMDVlYjk4MS03ZDVmLTQzMzMtODFkOS1jMWJiZWNjMjJiYzMiLCJzdWIiOiIyYzViYzI2My1lNzFhLTQ5MjktOTg1ZC0yNGQyY2MwNDEwNGIiLCJzY29wZSI6WyJwYXNzd29yZC53cml0ZSIsImNsb3VkX2NvbnRyb2xsZXIud3JpdGUiLCJvcGVuaWQiLCJjbG91ZF9jb250cm9sbGVyLnJlYWQiXSwiaWF0IjoxNDQxNjIwNjgzLCJleHAiOjE0NDQyMTI2ODMsImNpZCI6ImNmIiwiaXNzIjoiaHR0cHM6Ly91YWEubmcuYmx1ZW1peC5uZXQvb2F1dGgvdG9rZW4iLCJ6aWQiOiJ1YWEiLCJncmFudF90eXBlIjoicGFzc3dvcmQiLCJ1c2VyX25hbWUiOiJzcGlwcGFsbGEyQGNzYy5jb20iLCJ1c2VyX2lkIjoiMmM1YmMyNjMtZTcxYS00OTI5LTk4NWQtMjRkMmNjMDQxMDRiIiwiYXVkIjpbImNmIiwicGFzc3dvcmQiLCJjbG91ZF9jb250cm9sbGVyIiwib3BlbmlkIl19.1ZlS489MjyrqVRbnlRIForrVACnQ1Rs6tPEJr_OFgcc",
+  "OrganizationFields": {
+    "Guid": "e2e1ec4e-6fbc-44cc-a598-1561742bb8fd",
+    "Name": "CSCpublic",
+    "QuotaDefinition": {
+      "name": "",
+      "memory_limit": 0,
+      "instance_memory_limit": 0,
+      "total_routes": 0,
+      "total_services": 0,
+      "non_basic_services_allowed": false
+    }
+  },
+  "SpaceFields": {
+    "Guid": "03755f86-7318-4ed8-90fa-f362cb87c105",
+    "Name": "sandbox"
+  },
+  "SSLDisabled": false,
+  "AsyncTimeout": 0,
+  "Trace": "",
+  "ColorEnabled": "",
+  "Locale": "",
+  "PluginRepos": [
+    {
+      "Name": "CF-Community",
+      "Url": "http://plugins.cloudfoundry.org"
+    }
+  ],
+  "MinCliVersion": "",
+  "MinRecommendedCliVersion": ""
+}
