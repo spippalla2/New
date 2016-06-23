@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>a</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+     <welcome-file>sendM.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>check</servlet-name>
+    <servlet-class>MyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>check</servlet-name>
+    <url-pattern>/check</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Validate</servlet-name>
+    <servlet-class>Validate</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Welcome</servlet-name>
+    <servlet-class>Welcome</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Validate</servlet-name>
+    <url-pattern>/Validate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Welcome</servlet-name>
+    <url-pattern>/Welcome</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+        <servlet-name>mail</servlet-name>
+        <servlet-class>MailApp</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>mail</servlet-name>
+        <url-pattern>/mail</url-pattern>
+    </servlet-mapping>
+
+    
+</web-app>
